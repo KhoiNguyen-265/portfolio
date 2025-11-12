@@ -1,0 +1,186 @@
+@import "tailwindcss";
+
+/*  LIGHT THEME */
+@theme {
+  /* Backgrounds */
+  --color-bg-body: #f8f9fa;
+
+  /* Scrollbar */
+  --color-scroll-track: #fff;
+  --color-scroll-thumb: #ccc;
+  --color-scroll-thumb-hover: #9e9e9e;
+
+  /* Brand */
+  --color-brand-name-100: #000;
+  --color-brand-name-200: #000;
+  --color-brand-social: #4762f8;
+
+  /* Hero section */
+  --color-border-hero-right: #eee;
+  --gradient-bg-hero-right: linear-gradient(to right, #fff, #eee);
+  --gradient-border-top-hero: linear-gradient(
+    to right,
+    transparent,
+    #fff,
+    #fff,
+    transparent
+  );
+
+  /* border */
+  --color-border: rgba(0, 0, 0, 0.16); /* viền xám nhạt */
+
+  /* Text colors */
+  --color-text-red-500: #f96f73;
+  --color-text-yellow-500: #fa9348;
+  --color-text-green-500: #b6f9d2;
+  --color-text-green-700: #56b10e;
+  --color-text-pink-100: #ec4899;
+  --color-text-pink-200: #bd21b8;
+  --color-text-blue-100: #1dd2ec;
+  --color-text2: #000;
+  --color-text1: #1ea780;
+
+  /* UI elements */
+  --color-line-blue-500: #1a1443;
+  --gradient-resize-button: linear-gradient(to right, #ec4899, #8b5cf6);
+  --color-glow-card-bg: #f5f6f7;
+  --color-skill-card-bg: #f5f6f7;
+  --gradient-border-skill-card: linear-gradient(
+    to right,
+    transparent,
+    #fff,
+    #fff,
+    transparent
+  );
+}
+
+/* DARK THEME */
+.dark {
+  /* Backgrounds */
+  --color-bg-body: #0d1224;
+  --color-bg-tertiary: transparent;
+
+  /* Scrollbar */
+  --color-scroll-track: #0d1224;
+  --color-scroll-thumb: #606060;
+  --color-scroll-thumb-hover: #d6d6d6;
+
+  /* Brand */
+  --color-brand-name-100: #16f2b3;
+  --color-brand-name-200: #ec4899;
+  --color-brand-social: #ec4899;
+
+  /* Hero section */
+  --color-border-hero-right: #1b2c68a0;
+  --gradient-bg-hero-right: linear-gradient(to right, #0d1224, #0a0d37);
+  --gradient-border-top-hero: linear-gradient(
+    to right,
+    transparent,
+    #ec4899,
+    #8b5cf6,
+    transparent
+  );
+
+  /* border */
+  --color-border: rgba(255, 255, 255, 0.32);
+
+  /* Text colors */
+  --color-text2: #fff;
+  --color-text1: #16f2b3;
+
+  /* UI elements */
+  --color-line-blue-500: #1a1443;
+  --gradient-resize-button: linear-gradient(to right, #ec4899, #8b5cf6);
+  --color-glow-card-bg: #101123;
+  --color-skill-card-bg: #11152c;
+  --gradient-border-skill-card: linear-gradient(
+    to right,
+    transparent,
+    #8b5cf6,
+    #8b5cf6,
+    transparent
+  );
+}
+
+html {
+  scroll-behavior: smooth;
+  color: var(--color-text2);
+}
+
+.link {
+  position: relative;
+  transition: 0.4s;
+}
+
+.link::after,
+.link--active::after {
+  content: "";
+  position: absolute;
+  bottom: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 1px;
+  width: 0%;
+  height: 2px;
+  background: var(--color-text1);
+  transition: 0.4s;
+}
+
+.link:hover {
+  text-shadow: 0.5px 0 0 var(--color-text1);
+  color: var(--color-text1);
+}
+
+.link:hover::after {
+  width: calc(100% - 32px);
+}
+
+.link--active {
+  color: var(--color-text1);
+  text-shadow: 0.5px 0 0 var(--color-text1);
+}
+
+.link--active::after {
+  width: calc(100% - 32px);
+}
+
+@layer utilities {
+  .container {
+    @apply mx-auto px-6;
+  }
+
+  /* sm */
+  @media (min-width: 640px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+
+  /* md */
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+
+  /* lg */
+  @media (min-width: 1024px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+
+  /* xl */
+  @media (min-width: 1280px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+
+  /* 2xl */
+  @media (min-width: 1536px) {
+    .container {
+      max-width: 1320px;
+    }
+  }
+}

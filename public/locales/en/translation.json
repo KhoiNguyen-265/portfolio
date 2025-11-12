@@ -1,0 +1,14 @@
+{
+  "headerDefaultLayout": {
+    "brand": "Tien Khoi",
+    "home": "Home",
+    "about": "About",
+    "skill": "skills",
+    "project": "Projects",
+    "awards": "Awards",
+    "contact": "Contact"
+  },
+  "footerDefaultLayout": {
+    "design": "Designed and Developed by Tien Khoi"
+  }
+}
