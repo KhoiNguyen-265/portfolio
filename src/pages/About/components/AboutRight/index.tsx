@@ -1,6 +1,8 @@
+import { useTranslation } from "react-i18next";
 import { avatar } from "../../../../assets/images";
 import LabelSection from "../../../../components/LabelSection";
 function AboutRight() {
+    const { t } = useTranslation();
     return (
         <>
             <div className="relative flex-1">
@@ -11,10 +13,9 @@ function AboutRight() {
                         alt=""
                     />
                 </div>
-
                 <LabelSection
-                    label="ABOUT ME"
-                    className="rotate-90 absolute -right-[136px] top-1/2 -translate-y-1/2"
+                    label={t("introSection.about")}
+                    className="rotate-90 absolute -right-[136px] top-1/2 -translate-y-1/2 uppercase"
                 />
             </div>
         </>

@@ -36,6 +36,9 @@
         "heading11-bold": "user-friendly, performant, and well-designed ",
         "heading12": "and turn them into solid case studies in my portfolio."
     },
+    "skillsSection": {
+        "skill": "Skills"
+    },
     "footerDefaultLayout": {
         "design": "Designed and Developed by Tien Khoi"
     }

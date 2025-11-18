@@ -20,7 +20,7 @@ function Navigation() {
             icon: <PersonOutlinedIcon />,
         },
         {
-            id: "Skills",
+            id: "skills",
             label: t("headerDefaultLayout.skill"),
             icon: <HandymanOutlinedIcon />,
         },

@@ -36,6 +36,9 @@
         "heading11-bold": "dễ dùng, hiệu năng tốt, UI/UX rõ ràng ",
         "heading12": "và có thể tự tin đưa vào portfolio như những case study hoàn chỉnh."
     },
+    "skillsSection": {
+        "skill": "Các kỹ năng"
+    },
     "footerDefaultLayout": {
         "design": "Được thiết kế và phát triển bởi Tiến Khởi"
     }

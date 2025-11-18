@@ -17,13 +17,6 @@
     /* Hero section */
     --color-border-hero-right: #eee;
     --gradient-bg-hero-right: linear-gradient(to right, #fff, #eee);
-    --gradient-border-top-hero: linear-gradient(
-        to right,
-        transparent,
-        #fff,
-        #fff,
-        transparent
-    );
 
     /* border */
     --color-border: rgba(0, 0, 0, 0.16); /* viền xám nhạt */
@@ -43,13 +36,8 @@
     --color-line-blue: #1a1443;
     --color-border-hero-right: #1b2c68a0;
     --gradient-bg-hero-right: linear-gradient(to right, #0d1224, #0a0d37);
-    --gradient-border-top-hero: linear-gradient(
-        to right,
-        transparent,
-        #ec4899,
-        #8b5cf6,
-        transparent
-    );
+    --color-glow-card-bg: #101123;
+    --color-skill-card-bg: #11152c;
 }
 
 /* DARK THEME */
@@ -96,11 +84,11 @@
     /* UI elements */
     --color-glow-card-bg: #101123;
     --color-skill-card-bg: #11152c;
-    --gradient-border-skill-card: linear-gradient(
+    --color-border-top-skill-card: linear-gradient(
         to right,
         transparent,
-        #8b5cf6,
-        #8b5cf6,
+        #fff,
+        #fff,
         transparent
     );
 }

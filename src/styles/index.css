@@ -75,3 +75,13 @@ html {
 .link--active::after {
     width: calc(100% - 32px);
 }
+
+.top-skill-card {
+    background-image: linear-gradient(
+        to right,
+        transparent,
+        #1dd2ec,
+        #1dd2ec,
+        transparent
+    );
+}
