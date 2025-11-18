@@ -10,7 +10,7 @@ function Section({ children, className = "", id = "" }) {
                 }}
                 className="absolute top-0 left-1/2 h-full w-full -translate-x-1/2"
             ></div>
-            {children}
+            <div className="relative z-1">{children}</div>
         </section>
     );
 }

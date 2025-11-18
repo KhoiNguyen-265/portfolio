@@ -4,11 +4,13 @@ function AboutRight() {
     return (
         <>
             <div className="relative flex-1">
-                <img
-                    className=" object-cover max-w-[400px] rounded-2xl me-10"
-                    src={avatar}
-                    alt=""
-                />
+                <div className="overflow-hidden max-w-[400px] rounded-2xl">
+                    <img
+                        className="object-cover w-full rounded-[inherit] me-10  hover:scale-120 transition-all duration-700"
+                        src={avatar}
+                        alt=""
+                    />
+                </div>
 
                 <LabelSection
                     label="ABOUT ME"
