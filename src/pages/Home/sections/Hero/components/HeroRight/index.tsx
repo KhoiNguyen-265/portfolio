@@ -1,6 +1,6 @@
 function HeroRight() {
     return (
-        <div className="rounded-xl btn-outline">
+        <div className="rounded-xl btn-outline" style={{ padding: "1px" }}>
             <div className="btn-outline-inner bg-bg-body">
                 {/* Dots */}
                 <div className="flex items-center px-4 lg:px-8 py-5 gap-3">
@@ -91,13 +91,13 @@ function HeroRight() {
                                 <span>{"() {"}</span>
                             </div>
                             <div>
-                                <span className="me-2 text-text-orange-code">
+                                <span className="ms-16 me-2 text-text-orange-code">
                                     return
                                 </span>
                                 <span>{`(`}</span>
                             </div>
                             <div>
-                                <span className="ms-5 ps-3 text-text-blue-100">
+                                <span className="ms-22 ps-3 text-text-blue-100">
                                     this.
                                 </span>
                                 <span className="me-2 ">hardWorker</span>
@@ -106,7 +106,7 @@ function HeroRight() {
                                 </span>
                             </div>
                             <div>
-                                <span className="ms-5 ps-3 text-text-blue-100">
+                                <span className="ms-22 ps-3 text-text-blue-100">
                                     this.
                                 </span>
                                 <span className="me-2 ">problemSolver</span>
@@ -115,7 +115,7 @@ function HeroRight() {
                                 </span>
                             </div>
                             <div>
-                                <span className="ms-5 ps-3 text-text-blue-100">
+                                <span className="ms-22 ps-3 text-text-blue-100">
                                     this.
                                 </span>
                                 <span className="me-2">skills.length</span>
@@ -125,7 +125,7 @@ function HeroRight() {
                                 <span className="text-text-orange-code">5</span>
                             </div>
                             <div>
-                                <span className="ms-5 me-2 ">{`);`}</span>
+                                <span className="ms-16 me-2 ">{`);`}</span>
                             </div>
                             <div>
                                 <span className="ms-8">{`};`}</span>

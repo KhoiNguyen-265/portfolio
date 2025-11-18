@@ -4,7 +4,7 @@ import HeroRight from "./components/HeroRight";
 
 function Hero() {
     return (
-        <Section className="py-20">
+        <Section className="py-15">
             <div className="container">
                 <div className="flex items-center justify-between">
                     <HeroLeft />
