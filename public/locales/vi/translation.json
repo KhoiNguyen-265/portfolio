@@ -1,14 +1,20 @@
 {
-  "headerDefaultLayout": {
-    "brand": "Tiến Khởi",
-    "home": "Trang chủ",
-    "about": "Tác giả",
-    "skill": "Kỹ năng",
-    "project": "Dự án",
-    "awards": "Giải thưởng",
-    "contact": "Liên hệ"
-  },
-  "footerDefaultLayout": {
-    "design": "Được thiết kế và phát triển bởi Tiến Khởi"
-  }
+    "headerDefaultLayout": {
+        "brand": "Tiến Khởi",
+        "home": "Trang chủ",
+        "about": "Tác giả",
+        "skill": "Kỹ năng",
+        "project": "Dự án",
+        "awards": "Giải thưởng",
+        "contact": "Liên hệ"
+    },
+    "heroSection": {
+        "greet": "Chào bạn!",
+        "introduce": "Tôi là",
+        "exp": "Liên hệ",
+        "cv": "Tải CV"
+    },
+    "footerDefaultLayout": {
+        "design": "Được thiết kế và phát triển bởi Tiến Khởi"
+    }
 }

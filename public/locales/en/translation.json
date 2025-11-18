@@ -1,14 +1,20 @@
 {
-  "headerDefaultLayout": {
-    "brand": "Tien Khoi",
-    "home": "Home",
-    "about": "About",
-    "skill": "skills",
-    "project": "Projects",
-    "awards": "Awards",
-    "contact": "Contact"
-  },
-  "footerDefaultLayout": {
-    "design": "Designed and Developed by Tien Khoi"
-  }
+    "headerDefaultLayout": {
+        "brand": "Tien Khoi",
+        "home": "Home",
+        "about": "About",
+        "skill": "skills",
+        "project": "Projects",
+        "awards": "Awards",
+        "contact": "Contact"
+    },
+    "heroSection": {
+        "greet": "Hi There!",
+        "introduce": "I'm",
+        "exp": "Contact me",
+        "cv": "Get Resume"
+    },
+    "footerDefaultLayout": {
+        "design": "Designed and Developed by Tien Khoi"
+    }
 }

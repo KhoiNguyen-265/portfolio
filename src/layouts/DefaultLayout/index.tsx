@@ -6,9 +6,7 @@ function DefaultLayout() {
   return (
     <>
       <HeaderLayout />
-      <div className="container">
-        <Outlet />
-      </div>
+      <Outlet />
       <FooterLayout />
     </>
   );
