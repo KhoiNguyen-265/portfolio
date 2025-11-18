@@ -4,7 +4,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
 import { useTranslation } from "react-i18next";
 import { Typewriter } from "react-simple-typewriter";
-import Button from "../../../../../../components/Button";
+import Button from "../../../../../components/Button";
 
 const socials: { icon: React.ReactElement; id: number }[] = [
     {
@@ -22,7 +22,7 @@ function HeroLeft({ className = "" }) {
     return (
         <div className={`shrink-0 w-1/2 ${className}`}>
             {/* Title */}
-            <div className="text-xl md:text-2xl lg:text-3xl font-semibold">
+            <div className="text-2xl md:text-3xl lg:text-5xl font-semibold">
                 <h2>
                     {t("heroSection.greet")}
                     <span className="wave">👋🏻</span>

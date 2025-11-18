@@ -14,6 +14,28 @@
         "exp": "Liên hệ",
         "cv": "Tải CV"
     },
+    "introSection": {
+        "about": "Giới thiệu",
+        "languages": "React, Next.js, TypeScript và TailwindCSS",
+        "and": "và",
+        "name": "Khởi",
+        "heading1": "Xin chào, tôi là ",
+        "heading2": " - một Frontend Developer yêu thích việc xây dựng giao diện web hiện đại, mượt mà và hướng đến trải nghiệm người dùng.",
+        "heading3": "Tôi làm việc chủ yếu với ",
+        "heading4": ", chú trọng vào cấu trúc code rõ ràng, hiệu năng tốt và khả năng mở rộng lâu dài",
+        "objectives": "Mục tiêu",
+        "heading5": "Phát triển trở thành ",
+        "heading5-bold": "Frontend/Full-Stack Developer",
+        "heading6": " vững kỹ năng, hiểu tốt từ giao diện tới logic phía server.",
+        "heading7": "Tham gia vào các dự án ",
+        "heading7-bold": "thực tế, có độ phức tạp cao",
+        "heading8": ", nơi tôi có thể vừa đóng góp, vừa học thêm về kiến trúc hệ thống và best practices.",
+        "heading9": "Nâng cao liên tục kỹ năng về ",
+        "heading10": "và các công nghệ web hiện đại khác.",
+        "heading11": "Xây dựng những sản phẩm ",
+        "heading11-bold": "dễ dùng, hiệu năng tốt, UI/UX rõ ràng ",
+        "heading12": "và có thể tự tin đưa vào portfolio như những case study hoàn chỉnh."
+    },
     "footerDefaultLayout": {
         "design": "Được thiết kế và phát triển bởi Tiến Khởi"
     }

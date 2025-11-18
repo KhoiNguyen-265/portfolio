@@ -10,15 +10,15 @@ function HeroRight() {
                 </div>
 
                 {/* Code block */}
-                <div className="max-w-[700px] px-4 lg:px-8 py-4 lg:py-8 border-t-2 border-indigo-900">
+                <div className="max-w-[700px] px-4 lg:px-8 py-4 lg:py-8 border-t-[1.5px] border-indigo-900">
                     <pre className="whitespace-pre-wrap text-text2">
                         <code>
                             <div>
-                                <span className="me-2 text-text-pink-code-100">
+                                <span className="me-2 text-brand-name-200">
                                     const
                                 </span>
                                 <span className="me-2 ">developer</span>
-                                <span className="me-2 text-text-pink-code-100">
+                                <span className="me-2 text-brand-name-200">
                                     =
                                 </span>
                                 <span>{"{"}</span>
@@ -128,7 +128,7 @@ function HeroRight() {
                                 <span className="ms-16 me-2 ">{`);`}</span>
                             </div>
                             <div>
-                                <span className="ms-8">{`};`}</span>
+                                <span className="ms-8">{`}`}</span>
                             </div>
                             <div>
                                 <span>{`};`}</span>

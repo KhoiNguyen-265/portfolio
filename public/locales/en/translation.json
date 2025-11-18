@@ -3,7 +3,7 @@
         "brand": "Tien Khoi",
         "home": "Home",
         "about": "About",
-        "skill": "skills",
+        "skill": "Skills",
         "project": "Projects",
         "awards": "Awards",
         "contact": "Contact"
@@ -13,6 +13,28 @@
         "introduce": "I'm",
         "exp": "Contact me",
         "cv": "Get Resume"
+    },
+    "introSection": {
+        "about": "About me",
+        "languages": "React, Next.js, TypeScript và TailwindCSS",
+        "and": "and",
+        "name": "Khoi",
+        "heading1": "Hi, I'm ",
+        "heading2": " - a Frontend Developer who enjoys building modern, smooth and user-centric web interfaces.",
+        "heading3": "I primarily work with ",
+        "heading4": ", focusing on clean architecture, good performance and long-term maintainability.",
+        "objectives": "Objectives",
+        "heading5": "Grow into a strong ",
+        "heading5-bold": "Frontend/Full-Stack Developer",
+        "heading6": " with a solid understanding from UI to server-side logic.",
+        "heading7": "Contribute to ",
+        "heading7-bold": "real-world, complex projects",
+        "heading8": ", where I can bold add value and learn more about system architecture and best practices.",
+        "heading9": "Continuously improve my skills in ",
+        "heading10": " and other modern web technologies.",
+        "heading11": "Build products that are ",
+        "heading11-bold": "user-friendly, performant, and well-designed ",
+        "heading12": "and turn them into solid case studies in my portfolio."
     },
     "footerDefaultLayout": {
         "design": "Designed and Developed by Tien Khoi"

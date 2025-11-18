@@ -1,8 +1,8 @@
 import { heroBg } from "../../assets/images";
 
-function Section({ children, className = "" }) {
+function Section({ children, className = "", id = "" }) {
     return (
-        <section className={`relative ${className}`}>
+        <section id={id} className={`relative ${className}`}>
             <div
                 style={{
                     backgroundImage: `url(${heroBg})`,

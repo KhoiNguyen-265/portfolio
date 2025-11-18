@@ -34,14 +34,13 @@
     --color-text-yellow-300: #a18214;
     --color-text-green-500: #05df72;
     --color-text-green-700: #56b10e;
-    --color-text-pink-code-100: #ec4899;
     --color-text-pink-code-200: #bd21b8;
     --color-text-blue-100: #00d3f3;
     --color-text2: #000;
     --color-text1: #1ea780;
 
     /* UI elements */
-    --color-line-blue-500: #1a1443;
+    --color-line-blue: #1a1443;
     --color-border-hero-right: #1b2c68a0;
     --gradient-bg-hero-right: linear-gradient(to right, #0d1224, #0a0d37);
     --gradient-border-top-hero: linear-gradient(
@@ -91,7 +90,6 @@
     --color-text-yellow-300: #ffd230;
     --color-text-green-500: #05df72;
     --color-text-green-700: #56b10e;
-    --color-text-pink-code-100: #ec4899;
     --color-text-pink-code-200: #bd21b8;
     --color-text-blue-100: #00d3f3;
 

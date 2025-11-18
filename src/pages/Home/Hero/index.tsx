@@ -1,10 +1,10 @@
-import Section from "../../../../components/Section";
+import Section from "../../../components/Section";
 import HeroLeft from "./components/HeroLeft";
 import HeroRight from "./components/HeroRight";
 
 function Hero() {
     return (
-        <Section className="py-15">
+        <Section id="home" className="py-20">
             <div className="container">
                 <div className="flex items-center justify-between">
                     <HeroLeft />
