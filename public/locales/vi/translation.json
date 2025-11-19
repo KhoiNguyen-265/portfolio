@@ -39,6 +39,10 @@
     "skillsSection": {
         "skill": "Các kỹ năng"
     },
+    "projectSection": {
+        "project": "Các dự án",
+        "desc": "Dưới đây là các dự án tôi đã làm"
+    },
     "footerDefaultLayout": {
         "design": "Được thiết kế và phát triển bởi Tiến Khởi"
     }

@@ -63,7 +63,7 @@ function HeroLeft({ className = "" }) {
             {/* CTA */}
             <div className="flex items-center gap-6 mt-8">
                 <Button variant="outline" size="lg" className="uppercase">
-                    <span className="flex items-center gap-1">
+                    <span className="flex items-center justify-center gap-1">
                         {t("heroSection.exp")}{" "}
                         <PersonOutlineOutlinedIcon className="text-inherit" />
                     </span>

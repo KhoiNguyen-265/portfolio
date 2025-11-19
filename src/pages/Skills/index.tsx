@@ -1,14 +1,13 @@
 import Marquee from "react-fast-marquee";
 import { useTranslation } from "react-i18next";
 import LabelSection from "../../components/LabelSection";
-import Section from "../../components/Section";
-import { SKILLS_DATA } from "../../helpers/data";
 import skillsImage from "../../helpers/skill-Imgae";
+import { SKILLS_DATA } from "./data";
 
 function Skills() {
     const { t } = useTranslation();
     return (
-        <Section id="skills" className="py-20">
+        <section id="skills" className="py-20">
             <div className="">
                 {/* Heading */}
                 <div className="flex justify-center">
@@ -51,7 +50,7 @@ function Skills() {
                     </Marquee>
                 </div>
             </div>
-        </Section>
+        </section>
     );
 }
 

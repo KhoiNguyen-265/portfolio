@@ -6,6 +6,7 @@ interface IButtonProps {
     variant?: "primary" | "secondary" | "outline";
     size?: "sm" | "md" | "lg";
     href?: string;
+    rounded?: boolean;
 }
 
 function Button({
@@ -14,10 +15,11 @@ function Button({
     variant = "primary",
     size = "md",
     href,
+    rounded = true,
     ...rest
 }: IButtonProps) {
     const basesStyles =
-        "inline-flex items-center justify-center transition-all duration-300 rounded-full cursor-pointer font-medium min-w-[150px] z-1";
+        "inline-flex items-center justify-center transition-all duration-300 cursor-pointer font-medium z-1";
 
     const variantStyles: Record<string, string> = {
         primary: "btn-bg text-white",
@@ -25,9 +27,9 @@ function Button({
     };
 
     const sizeStyles: Record<string, string> = {
-        sm: "px-3 py-1.5 text-sm",
-        md: "px-6 py-2 text-md",
-        lg: "px-8 py-3 text-base",
+        sm: "px-3 py-1.5 text-sm min-w-[100px]",
+        md: "px-6 py-2 text-md min-w-[140px]",
+        lg: "px-8 py-3 text-base min-w-[180px]",
     };
 
     const Component = href ? "a" : "button";
@@ -43,6 +45,7 @@ function Button({
                 className,
                 {
                     "btn-outline": isOutline,
+                    "rounded-full": rounded,
                 }
             )}
             {...rest}
