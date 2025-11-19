@@ -1,7 +1,7 @@
 /*  LIGHT THEME */
 @theme {
     /* Backgrounds */
-    --color-bg-body: #fbfbfb;
+    --color-bg-body: #fcfcfd;
     --color-bg-tertiary: #f8f9fa;
 
     /* Scrollbar */
@@ -16,7 +16,6 @@
 
     /* Hero section */
     --color-border-hero-right: #eee;
-    --gradient-bg-hero-right: linear-gradient(to right, #fff, #eee);
 
     /* border */
     --color-border: rgba(0, 0, 0, 0.16); /* viền xám nhạt */
@@ -28,16 +27,16 @@
     --color-text-green-500: #05df72;
     --color-text-green-700: #56b10e;
     --color-text-pink-code-200: #bd21b8;
-    --color-text-blue-100: #00d3f3;
+    --color-text-blue-100: #06b6d4;
     --color-text2: #000;
     --color-text1: #1ea780;
 
     /* UI elements */
-    --color-line-blue: #1a1443;
+    --color-line-blue: #dbeafe;
     --color-border-hero-right: #1b2c68a0;
-    --gradient-bg-hero-right: linear-gradient(to right, #0d1224, #0a0d37);
     --color-glow-card-bg: #101123;
-    --color-skill-card-bg: #11152c;
+    --color-border-skill: #fcfcfd;
+    --color-skill-card-bg: #fcfcfd;
 }
 
 /* DARK THEME */
@@ -82,8 +81,10 @@
     --color-text-blue-100: #00d3f3;
 
     /* UI elements */
+    --color-line-blue: #1a1443;
     --color-glow-card-bg: #101123;
     --color-skill-card-bg: #11152c;
+    --color-border-skill: #1f223c;
     --color-border-top-skill-card: linear-gradient(
         to right,
         transparent,

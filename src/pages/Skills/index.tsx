@@ -12,7 +12,10 @@ function Skills() {
             <div className="">
                 {/* Heading */}
                 <div className="flex justify-center">
-                    <LabelSection label={t("skillsSection.skill")} />
+                    <LabelSection
+                        className="uppercase"
+                        label={t("skillsSection.skill")}
+                    />
                 </div>
 
                 {/* Marquee */}
@@ -20,7 +23,7 @@ function Skills() {
                     <Marquee pauseOnHover pauseOnClick>
                         {SKILLS_DATA.map((skill, index) => (
                             <div
-                                className="cursor-pointer border border-[#1f223c] bg-skill-card-bg m-3 sm:m-5 w-36 rounded-lg transition-all duration-500 hover:scale-120 hover:border-text-blue-100"
+                                className="cursor-pointer border border-border-skill bg-skill-card-bg m-3 sm:m-5 w-36 rounded-lg transition-all duration-500 hover:scale-120 hover:border-text-blue-100"
                                 key={index}
                             >
                                 {/* Decorate top */}
