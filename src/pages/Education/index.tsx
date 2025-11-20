@@ -17,12 +17,15 @@ function Education() {
 
                     {/* Content */}
                     <div className="flex">
+                        {/* Left */}
                         <div className="w-1/2 flex justify-center">
                             <Lottie
                                 className="max-w-[400px] w-full"
                                 animationData={educationAnimation}
                             />
                         </div>
+
+                        {/* Right */}
                         <div className="flex-1 mt-20">
                             <GlowCard
                                 className="transition-all duration-500 hover:-translate-y-10"

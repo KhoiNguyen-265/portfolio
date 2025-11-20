@@ -43,6 +43,10 @@
         "project": "Projects",
         "desc": "Here are a few projects I've worked"
     },
+    "awardsSection": {
+        "awards": "Awards",
+        "desc": "A collection of notable awards and achievements throughout my academic and professional journey"
+    },
     "footerDefaultLayout": {
         "design": "Designed and Developed by Tien Khoi"
     }

@@ -43,6 +43,10 @@
         "project": "Các dự án",
         "desc": "Dưới đây là các dự án tôi đã làm"
     },
+    "awardsSection": {
+        "awards": "Giải thưởng",
+        "desc": "Những giải thưởng và thành tựu tiêu biểu trong quá trình học tập và làm việc của tôi"
+    },
     "footerDefaultLayout": {
         "design": "Được thiết kế và phát triển bởi Tiến Khởi"
     }
