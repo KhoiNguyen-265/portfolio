@@ -43,7 +43,7 @@ function ProjectCard({ project, locale, className = "" }: IProjectCard) {
                 <h3 className="font-semibold text-sm md:text-base lg:text-xl text-text2">
                     {titleText}
                 </h3>
-                <p className="line-clamp-6 mt-3 text-xs md:text-sm lg:text-base">
+                <p className="line-clamp-5 mt-3 text-xs md:text-sm lg:text-base">
                     {descText}
                 </p>
                 <div className="flex gap-3 mt-3">

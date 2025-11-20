@@ -1,4 +1,5 @@
 import About from "../About";
+import Education from "../Education";
 import Project from "../Project";
 import Skills from "../Skills";
 import Hero from "./Hero";
@@ -10,6 +11,7 @@ function Home() {
             <About />
             <Skills />
             <Project />
+            <Education />
         </div>
     );
 }

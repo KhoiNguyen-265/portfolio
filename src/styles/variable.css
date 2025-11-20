@@ -19,6 +19,7 @@
 
     /* border */
     --color-border: rgba(0, 0, 0, 0.16); /* viền xám nhạt */
+    --color-border-row-section: #2a2e5a;
 
     /* Text colors */
     --color-text-orange-code: #ff8904;
@@ -68,6 +69,7 @@
 
     /* border */
     --color-border: rgba(255, 255, 255, 0.32);
+    --color-border-row-section: #2a2e5a;
 
     /* Text colors */
     --color-text2: #fff;
