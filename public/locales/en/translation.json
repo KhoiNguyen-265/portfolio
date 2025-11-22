@@ -47,6 +47,38 @@
         "awards": "Awards",
         "desc": "A collection of notable awards and achievements throughout my academic and professional journey"
     },
+    "contactSection": {
+        "contact": "Contact",
+        "heading1": "Contact with me",
+        "desc": "If you have any questions or concerns, please don't hesitate to contact me. I am open to any work opportunities that align with my skills and interests.",
+        "info": {
+            "emailLabel": "Email",
+            "phoneLabel": "Phone",
+            "locationLabel": "Location"
+        },
+        "form": {
+            "nameLabel": "Your name:",
+            "emailLabel": "Your email:",
+            "messageLabel": "Your message:",
+            "placeholderName": "Nguyen Van A",
+            "placeholderEmail": "you@example.com",
+            "placeholderMessage": "Please, tell me what you need...",
+            "submit": "Send message",
+            "sending": "Sending..."
+        },
+        "status": {
+            "success": "Message sent! I’ll get back to you as soon as possible.",
+            "error": "Something went wrong. Please try again in a moment."
+        },
+        "errors": {
+            "nameRequired": "Please enter your name.",
+            "nameMin": "Your name should be at least 2 characters.",
+            "emailRequired": "Please enter your email.",
+            "emailInvalid": "Please enter a valid email address.",
+            "messageRequired": "Please enter a message.",
+            "messageMin": "Your message should be at least 10 characters."
+        }
+    },
     "footerDefaultLayout": {
         "design": "Designed and Developed by Tien Khoi"
     }

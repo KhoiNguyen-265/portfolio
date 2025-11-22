@@ -47,6 +47,38 @@
         "awards": "Giải thưởng",
         "desc": "Những giải thưởng và thành tựu tiêu biểu trong quá trình học tập và làm việc của tôi"
     },
+    "contactSection": {
+        "contact": "Liên hệ",
+        "heading1": "Hãy liên hệ với tôi",
+        "desc": "Nếu bạn có câu hỏi, góp ý hoặc cơ hội hợp tác, xin vui lòng liên hệ với tôi. Tôi sẵn sàng đón nhận mọi cơ hội làm việc phù hợp với kỹ năng và sở thích của mình.",
+        "info": {
+            "emailLabel": "Email",
+            "phoneLabel": "Số điện thoại",
+            "locationLabel": "Địa chỉ"
+        },
+        "form": {
+            "nameLabel": "Họ tên",
+            "emailLabel": "Email",
+            "messageLabel": "Lời nhắn",
+            "placeholderName": "Nguyễn Văn A",
+            "placeholderEmail": "ban@example.com",
+            "placeholderMessage": "Hãy cho tôi biết bạn đang cần gì...",
+            "submit": "Gửi tin nhắn",
+            "sending": "Đang gửi..."
+        },
+        "status": {
+            "success": "Đã gửi thành công! Tôi sẽ phản hồi sớm nhất có thể.",
+            "error": "Có lỗi xảy ra, vui lòng thử lại sau ít phút."
+        },
+        "errors": {
+            "nameRequired": "Vui lòng nhập họ tên.",
+            "nameMin": "Họ tên phải có ít nhất 2 ký tự.",
+            "emailRequired": "Vui lòng nhập email.",
+            "emailInvalid": "Email không hợp lệ.",
+            "messageRequired": "Vui lòng nhập nội dung.",
+            "messageMin": "Nội dung phải dài hơn 10 ký tự."
+        }
+    },
     "footerDefaultLayout": {
         "design": "Được thiết kế và phát triển bởi Tiến Khởi"
     }

@@ -3,6 +3,7 @@
     /* Backgrounds */
     --color-bg-body: #fcfcfd;
     --color-bg-tertiary: #f8f9fa;
+    --color-bg-input: #10172d;
 
     /* Scrollbar */
     --color-scroll-track: #fff;
@@ -19,7 +20,7 @@
 
     /* border */
     --color-border: rgba(0, 0, 0, 0.16); /* viền xám nhạt */
-    --color-border-row-section: #2a2e5a;
+    --color-border-row-section: rgba(0, 0, 0, 0.2);
 
     /* Text colors */
     --color-text-orange-code: #ff8904;
@@ -45,6 +46,7 @@
     /* Backgrounds */
     --color-bg-body: #0d1224;
     --color-bg-tertiary: #0d1224;
+    --color-bg-input: #10172d;
 
     /* Scrollbar */
     --color-scroll-track: #0d1224;

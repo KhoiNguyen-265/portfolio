@@ -7,6 +7,7 @@ interface IButtonProps {
     size?: "sm" | "md" | "lg";
     href?: string;
     rounded?: boolean;
+    disable?: boolean;
 }
 
 function Button({
@@ -16,10 +17,11 @@ function Button({
     size = "md",
     href,
     rounded = true,
+    disable = false,
     ...rest
 }: IButtonProps) {
     const basesStyles =
-        "inline-flex items-center justify-center transition-all duration-300 cursor-pointer font-medium z-1";
+        "inline-flex items-center justify-center transition-all duration-300 font-medium z-1";
 
     const variantStyles: Record<string, string> = {
         primary: "btn-bg text-white",
@@ -46,6 +48,8 @@ function Button({
                 {
                     "btn-outline": isOutline,
                     "rounded-full": rounded,
+                    "pointer-events-none": disable,
+                    "cursor-pointer": !disable,
                 }
             )}
             {...rest}
