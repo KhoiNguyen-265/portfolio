@@ -12,22 +12,24 @@ function HeaderLayout() {
         <header className="bg-bg-tertiary text-text2/80 sticky top-0 z-999">
             <div className="container">
                 <div className="flex items-center justify-between py-2">
-                    <a href="#" className="text-text1 text-3xl font-bold">
+                    <a
+                        href="#"
+                        className="text-text1 text-3xl font-bold shrink-0"
+                    >
                         {t("headerDefaultLayout.brand")}
                     </a>
                     <Navigation />
 
-                    <div className="text- flex items-center gap-5">
-                        <button
-                            className="cursor-pointer"
-                            onClick={toggleTheme}
-                        >
-                            {theme === "light" ? (
-                                <LightModeOutlinedIcon />
-                            ) : (
-                                <DarkModeOutlinedIcon />
-                            )}
-                        </button>
+                    <div className="text- flex items-center gap-2">
+                        <div onClick={toggleTheme} className="btn-wrapper">
+                            <button className="cursor-pointer">
+                                {theme === "light" ? (
+                                    <LightModeOutlinedIcon />
+                                ) : (
+                                    <DarkModeOutlinedIcon />
+                                )}
+                            </button>
+                        </div>
                         <LanguageSelect />
                     </div>
                 </div>
