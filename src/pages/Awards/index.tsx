@@ -23,17 +23,17 @@ function Awards() {
                 </div>
 
                 {/* Content */}
-                <div className="flex items-center mt-10">
+                <div className="flex flex-col-reverse lg:flex-row items-center mt-10">
                     {/* left */}
-                    <div className="shrink-0 lg:w-[60%] xl:w-[65%]">
+                    <div className="w-full lg:w-[60%] xl:w-[65%]">
                         {AWARDS_DATA.map((award, index) => (
                             <GlowCard
                                 key={index}
                                 year={award.year}
                                 className="transition-all duration-500 hover:-translate-y-6 mt-10"
                             >
-                                <div className="flex items-center lg:gap-6 xl:gap-8 ">
-                                    <div className="text-violet-500 lg:text-5xl xl:text-6xl">
+                                <div className="flex items-center gap-4 lg:gap-6 xl:gap-8 ">
+                                    <div className="text-violet-500 text-6xl lg:text-5xl xl:text-6xl shrink-0">
                                         <MilitaryTechIcon fontSize="inherit" />
                                     </div>
                                     <div className="flex flex-col gap-2">
@@ -52,7 +52,7 @@ function Awards() {
                     </div>
 
                     {/* Right */}
-                    <div className="w-full max-w-[400px] ml-auto">
+                    <div className="w-full max-w-[400px] ml-auto md:mx-auto">
                         <Lottie animationData={developerAnimation} />
                     </div>
                 </div>

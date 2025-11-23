@@ -15,7 +15,7 @@ function AboutRight() {
                 </div>
                 <LabelSection
                     label={t("introSection.about")}
-                    className="rotate-90 absolute -right-[136px] top-1/2 -translate-y-1/2 uppercase"
+                    className="rotate-90 absolute -right-[136px] top-1/2 -translate-y-1/2 uppercase hidden lg:flex"
                 />
             </div>
         </>

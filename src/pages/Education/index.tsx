@@ -16,9 +16,9 @@ function Education() {
                     </div>
 
                     {/* Content */}
-                    <div className="flex">
+                    <div className="flex items-start">
                         {/* Left */}
-                        <div className="w-1/2 flex justify-center">
+                        <div className="hidden lg:flex w-1/2  justify-center">
                             <Lottie
                                 className="max-w-[400px] w-full"
                                 animationData={educationAnimation}

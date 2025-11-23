@@ -14,11 +14,7 @@ function GlowCard({ className = "", year = "", children }: IGlowCard) {
             <div className="relative rounded-[inherit] p-px overflow-hidden">
                 {/* border */}
                 <div
-                    className="
-                        pointer-events-none
-                        absolute inset-0 rounded-[inherit]
-                        opacity-0 group-hover:opacity-100
-                        bg-[conic-gradient(from_0deg,var(--color-cyan-400),var(--color-indigo-500),var(--color-fuchsia-500),var(--color-cyan-400))]
+                    className="pointer-events-none absolute inset-0 rounded-[inherit] opacity-0 group-hover:opacity-100 bg-[conic-gradient(from_0deg,var(--color-cyan-400),var(--color-indigo-500),var(--color-fuchsia-500),var(--color-cyan-400))]
                     "
                 />
 
@@ -34,7 +30,9 @@ function GlowCard({ className = "", year = "", children }: IGlowCard) {
                             {year}
                         </p>
                     </div>
-                    <div className="xl:px-3 lg:py-3 xl:py-5">{children}</div>
+                    <div className="xl:px-3 py-5 lg:py-3 xl:py-5">
+                        {children}
+                    </div>
                 </div>
             </div>
         </div>

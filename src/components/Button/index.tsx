@@ -15,7 +15,7 @@ function Button({
     className,
     variant = "primary",
     size = "md",
-    href,
+    href = "",
     rounded = true,
     disable = false,
     ...rest
@@ -34,7 +34,9 @@ function Button({
         lg: "px-8 py-3 text-base min-w-[180px]",
     };
 
-    const Component = href ? "a" : "button";
+    const isLink = Boolean(href);
+
+    const Component = isLink ? "a" : "button";
 
     const isOutline = variant === "outline";
 
@@ -52,6 +54,8 @@ function Button({
                     "cursor-pointer": !disable,
                 }
             )}
+            {...(isLink ? { href } : {})}
+            {...(!isLink ? { disabled: disable } : {})}
             {...rest}
         >
             {isOutline ? (

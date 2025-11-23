@@ -20,7 +20,7 @@ const socials: { icon: React.ReactElement; id: number }[] = [
 function HeroLeft({ className = "" }) {
     const { t } = useTranslation();
     return (
-        <div className={`shrink-0 w-1/2 ${className}`}>
+        <div className={`shrink-0 lg:w-1/2 ${className}`}>
             {/* Title */}
             <div className="text-2xl md:text-3xl lg:text-5xl font-semibold">
                 <h2>
@@ -62,7 +62,12 @@ function HeroLeft({ className = "" }) {
             </div>
             {/* CTA */}
             <div className="flex items-center gap-6 mt-8">
-                <Button variant="outline" size="lg" className="uppercase">
+                <Button
+                    variant="outline"
+                    size="lg"
+                    href="#contact"
+                    className="uppercase"
+                >
                     <span className="flex items-center justify-center gap-1">
                         {t("heroSection.exp")}{" "}
                         <PersonOutlineOutlinedIcon className="text-inherit" />

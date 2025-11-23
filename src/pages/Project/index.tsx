@@ -16,7 +16,7 @@ function Project() {
                     </h2>
                     <p className="">{t("projectSection.desc")}</p>
                 </div>
-                <div className="mt-14 grid grid-cols-3 gap-8">
+                <div className="mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {PROJECTS_DATA.map((project) => (
                         <ProjectCard
                             key={project.id}

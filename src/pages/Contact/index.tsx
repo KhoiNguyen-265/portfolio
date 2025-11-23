@@ -21,12 +21,12 @@ function Contact() {
                 {/* Content */}
                 <div className="flex items-center mt-10">
                     {/* Left */}
-                    <div className="w-[40%]">
+                    <div className="w-[40%] shrink-0">
                         <Lottie animationData={contactAnimation} />
                     </div>
 
                     {/* Right */}
-                    <div className="w-1/2 ml-auto">
+                    <div className="w lg:w-1/2 ml-auto">
                         <h2 className="font-medium mb-5 text-brand-name-100 text-xl uppercase">
                             {t("contactSection.heading1")}
                         </h2>
