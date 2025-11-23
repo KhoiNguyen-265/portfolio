@@ -5,7 +5,7 @@ import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
 import WorkOutlineOutlinedIcon from "@mui/icons-material/WorkOutlineOutlined";
 import { useTranslation } from "react-i18next";
-function Navigation() {
+function Navigation({ className = "" }) {
     const { t } = useTranslation();
 
     const navLinks = [
@@ -41,12 +41,12 @@ function Navigation() {
         },
     ];
     return (
-        <nav className="flex items-center gap-1">
+        <nav className={`hidden lg:flex items-center gap-1 ${className}`}>
             {navLinks.map((link) => (
                 <a
                     key={link.id}
                     href={`#${link.id}`}
-                    className="link flex items-center px-4 py-3 text-sm"
+                    className="link flex items-center px-4 py-3 text-sm gap-1"
                 >
                     <span>{link.icon}</span>
                     <span>{link.label}</span>

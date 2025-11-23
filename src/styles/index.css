@@ -97,3 +97,7 @@ textarea {
         transparent
     );
 }
+
+.slide-in {
+    animation: slide-in 800ms;
+}
