@@ -1,0 +1,85 @@
+{
+    "headerDefaultLayout": {
+        "brand": "Tien Khoi",
+        "home": "Home",
+        "about": "About",
+        "skill": "Skills",
+        "project": "Projects",
+        "awards": "Awards",
+        "contact": "Contact"
+    },
+    "heroSection": {
+        "greet": "Hi There!",
+        "introduce": "I'm",
+        "exp": "Contact me",
+        "cv": "Get Resume"
+    },
+    "introSection": {
+        "about": "About me",
+        "languages": "React, Next.js, TypeScript và TailwindCSS",
+        "and": "and",
+        "name": "Khoi",
+        "heading1": "Hi, I'm ",
+        "heading2": " - a Frontend Developer who enjoys building modern, smooth and user-centric web interfaces.",
+        "heading3": "I primarily work with ",
+        "heading4": ", focusing on clean architecture, good performance and long-term maintainability.",
+        "objectives": "Objectives",
+        "heading5": "Grow into a strong ",
+        "heading5-bold": "Frontend/Full-Stack Developer",
+        "heading6": " with a solid understanding from UI to server-side logic.",
+        "heading7": "Contribute to ",
+        "heading7-bold": "real-world, complex projects",
+        "heading8": ", where I can bold add value and learn more about system architecture and best practices.",
+        "heading9": "Continuously improve my skills in ",
+        "heading10": " and other modern web technologies.",
+        "heading11": "Build products that are ",
+        "heading11-bold": "user-friendly, performant, and well-designed ",
+        "heading12": "and turn them into solid case studies in my portfolio."
+    },
+    "skillsSection": {
+        "skill": "Skills"
+    },
+    "projectSection": {
+        "project": "Projects",
+        "desc": "Here are a few projects I've worked"
+    },
+    "awardsSection": {
+        "awards": "Awards",
+        "desc": "A collection of notable awards and achievements throughout my academic and professional journey"
+    },
+    "contactSection": {
+        "contact": "Contact",
+        "heading1": "Contact with me",
+        "desc": "If you have any questions or concerns, please don't hesitate to contact me. I am open to any work opportunities that align with my skills and interests.",
+        "info": {
+            "emailLabel": "Email",
+            "phoneLabel": "Phone",
+            "locationLabel": "Location"
+        },
+        "form": {
+            "nameLabel": "Your name:",
+            "emailLabel": "Your email:",
+            "messageLabel": "Your message:",
+            "placeholderName": "Nguyen Van A",
+            "placeholderEmail": "you@example.com",
+            "placeholderMessage": "Please, tell me what you need...",
+            "submit": "Send message",
+            "sending": "Sending..."
+        },
+        "status": {
+            "success": "Message sent! I’ll get back to you as soon as possible.",
+            "error": "Something went wrong. Please try again in a moment."
+        },
+        "errors": {
+            "nameRequired": "Please enter your name.",
+            "nameMin": "Your name should be at least 2 characters.",
+            "emailRequired": "Please enter your email.",
+            "emailInvalid": "Please enter a valid email address.",
+            "messageRequired": "Please enter a message.",
+            "messageMin": "Your message should be at least 10 characters."
+        }
+    },
+    "footerDefaultLayout": {
+        "design": "Designed and Developed by Tien Khoi"
+    }
+}

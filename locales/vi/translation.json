@@ -1,0 +1,85 @@
+{
+    "headerDefaultLayout": {
+        "brand": "Tiến Khởi",
+        "home": "Trang chủ",
+        "about": "Tác giả",
+        "skill": "Kỹ năng",
+        "project": "Dự án",
+        "awards": "Giải thưởng",
+        "contact": "Liên hệ"
+    },
+    "heroSection": {
+        "greet": "Chào bạn!",
+        "introduce": "Tôi là",
+        "exp": "Liên hệ",
+        "cv": "Tải CV"
+    },
+    "introSection": {
+        "about": "Giới thiệu",
+        "languages": "React, Next.js, TypeScript và TailwindCSS",
+        "and": "và",
+        "name": "Khởi",
+        "heading1": "Xin chào, tôi là ",
+        "heading2": " - một Frontend Developer yêu thích việc xây dựng giao diện web hiện đại, mượt mà và hướng đến trải nghiệm người dùng.",
+        "heading3": "Tôi làm việc chủ yếu với ",
+        "heading4": ", chú trọng vào cấu trúc code rõ ràng, hiệu năng tốt và khả năng mở rộng lâu dài",
+        "objectives": "Mục tiêu",
+        "heading5": "Phát triển trở thành ",
+        "heading5-bold": "Frontend/Full-Stack Developer",
+        "heading6": " vững kỹ năng, hiểu tốt từ giao diện tới logic phía server.",
+        "heading7": "Tham gia vào các dự án ",
+        "heading7-bold": "thực tế, có độ phức tạp cao",
+        "heading8": ", nơi tôi có thể vừa đóng góp, vừa học thêm về kiến trúc hệ thống và best practices.",
+        "heading9": "Nâng cao liên tục kỹ năng về ",
+        "heading10": "và các công nghệ web hiện đại khác.",
+        "heading11": "Xây dựng những sản phẩm ",
+        "heading11-bold": "dễ dùng, hiệu năng tốt, UI/UX rõ ràng ",
+        "heading12": "và có thể tự tin đưa vào portfolio như những case study hoàn chỉnh."
+    },
+    "skillsSection": {
+        "skill": "Các kỹ năng"
+    },
+    "projectSection": {
+        "project": "Các dự án",
+        "desc": "Dưới đây là các dự án tôi đã làm"
+    },
+    "awardsSection": {
+        "awards": "Giải thưởng",
+        "desc": "Những giải thưởng và thành tựu tiêu biểu trong quá trình học tập và làm việc của tôi"
+    },
+    "contactSection": {
+        "contact": "Liên hệ",
+        "heading1": "Hãy liên hệ với tôi",
+        "desc": "Nếu bạn có câu hỏi, góp ý hoặc cơ hội hợp tác, xin vui lòng liên hệ với tôi. Tôi sẵn sàng đón nhận mọi cơ hội làm việc phù hợp với kỹ năng và sở thích của mình.",
+        "info": {
+            "emailLabel": "Email",
+            "phoneLabel": "Số điện thoại",
+            "locationLabel": "Địa chỉ"
+        },
+        "form": {
+            "nameLabel": "Họ tên",
+            "emailLabel": "Email",
+            "messageLabel": "Lời nhắn",
+            "placeholderName": "Nguyễn Văn A",
+            "placeholderEmail": "ban@example.com",
+            "placeholderMessage": "Hãy cho tôi biết bạn đang cần gì...",
+            "submit": "Gửi tin nhắn",
+            "sending": "Đang gửi..."
+        },
+        "status": {
+            "success": "Đã gửi thành công! Tôi sẽ phản hồi sớm nhất có thể.",
+            "error": "Có lỗi xảy ra, vui lòng thử lại sau ít phút."
+        },
+        "errors": {
+            "nameRequired": "Vui lòng nhập họ tên.",
+            "nameMin": "Họ tên phải có ít nhất 2 ký tự.",
+            "emailRequired": "Vui lòng nhập email.",
+            "emailInvalid": "Email không hợp lệ.",
+            "messageRequired": "Vui lòng nhập nội dung.",
+            "messageMin": "Nội dung phải dài hơn 10 ký tự."
+        }
+    },
+    "footerDefaultLayout": {
+        "design": "Được thiết kế và phát triển bởi Tiến Khởi"
+    }
+}
