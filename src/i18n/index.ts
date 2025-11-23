@@ -15,7 +15,7 @@ i18n.use(Backend)
             caches: ["localStorage"],
         },
         backend: {
-            loadPath: `${import.meta.env.BASE_URL}/locales/{{lng}}/{{ns}}.json`,
+            loadPath: `${import.meta.env.BASE_URL}locales/{{lng}}/{{ns}}.json`,
         },
         interpolation: {
             escapeValue: false,
