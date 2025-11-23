@@ -8,7 +8,7 @@ function AboutRight() {
             <div className="relative flex-1">
                 <div className="overflow-hidden lg:max-w-[350px] xl:max-w-[400px] rounded-2xl">
                     <img
-                        className="object-cover w-full rounded-[inherit] hover:scale-120 transition-all duration-700 mr-10"
+                        className="object-cover w-full rounded-[inherit] hover:scale-120 transition-all duration-700 lg:mr-10"
                         src={avatar}
                         alt=""
                     />

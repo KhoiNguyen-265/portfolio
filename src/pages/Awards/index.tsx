@@ -52,7 +52,7 @@ function Awards() {
                     </div>
 
                     {/* Right */}
-                    <div className="w-full max-w-[400px] ml-auto md:mx-auto">
+                    <div className="w-full max-w-[400px] lg:ml-auto mx-auto">
                         <Lottie animationData={developerAnimation} />
                     </div>
                 </div>

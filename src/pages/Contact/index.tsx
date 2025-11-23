@@ -19,9 +19,9 @@ function Contact() {
                 </div>
 
                 {/* Content */}
-                <div className="flex items-center mt-10">
+                <div className="flex flex-col md:flex-row items-center mt-10">
                     {/* Left */}
-                    <div className="w-[40%] shrink-0">
+                    <div className="w-[60%] md:w-[40%] shrink-0">
                         <Lottie animationData={contactAnimation} />
                     </div>
 
