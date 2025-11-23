@@ -31,7 +31,7 @@ function Button({
     const sizeStyles: Record<string, string> = {
         sm: "px-3 py-1.5 text-sm min-w-[100px]",
         md: "px-6 py-2 text-md min-w-[140px]",
-        lg: "px-8 py-3 text-base min-w-[180px]",
+        lg: "px-6 sm:px-8 py-3 text-base sm:min-w-[180px]",
     };
 
     const isLink = Boolean(href);

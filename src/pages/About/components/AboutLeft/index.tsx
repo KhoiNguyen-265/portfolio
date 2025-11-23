@@ -35,7 +35,7 @@ function AboutLeft() {
     ];
 
     return (
-        <div className="max-w-1/2">
+        <div className="sm:max-w-1/2">
             <div className="flex flex-col gap-5">
                 <div>
                     <h3 className="font-semibold text-base md:text-xl lg:text-2xl text-brand-name-100">

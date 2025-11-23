@@ -61,21 +61,23 @@ function HeroLeft({ className = "" }) {
                 ))}
             </div>
             {/* CTA */}
-            <div className="flex items-center gap-6 mt-8">
+            <div className="flex items-center gap-4 sm:gap-6 mt-8">
                 <Button
                     variant="outline"
                     size="lg"
                     href="#contact"
-                    className="uppercase"
+                    className="uppercase shrink-0"
                 >
-                    <span className="flex items-center justify-center gap-1">
+                    <span className="flex items-center text-xs sm:text-base justify-center gap-1">
                         {t("heroSection.exp")}{" "}
                         <PersonOutlineOutlinedIcon className="text-inherit" />
                     </span>
                 </Button>
-                <Button size="lg" className="uppercase">
-                    <span className="flex item-center gap-1">
-                        {t("heroSection.cv")}{" "}
+                <Button size="lg" className="uppercase shrink-0">
+                    <span className="flex item-center justify-center text-xs sm:text-base gap-1">
+                        <span className="flex items-center justify-center">
+                            {t("heroSection.cv")}{" "}
+                        </span>
                         <FileDownloadOutlinedIcon className="text-inherit" />
                     </span>
                 </Button>
