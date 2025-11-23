@@ -30,11 +30,11 @@ function GlowCard({ className = "", year = "", children }: IGlowCard) {
                         alt=""
                     />
                     <div className="flex justify-center">
-                        <p className="text-xs sm:text-sm text-brand-name-100">
+                        <p className="text-xs xl:text-sm text-brand-name-100">
                             {year}
                         </p>
                     </div>
-                    <div className="px-3 py-5">{children}</div>
+                    <div className="xl:px-3 lg:py-3 xl:py-5">{children}</div>
                 </div>
             </div>
         </div>

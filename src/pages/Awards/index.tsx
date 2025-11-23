@@ -25,21 +25,21 @@ function Awards() {
                 {/* Content */}
                 <div className="flex items-center mt-10">
                     {/* left */}
-                    <div className="">
+                    <div className="shrink-0 lg:w-[60%] xl:w-[65%]">
                         {AWARDS_DATA.map((award, index) => (
                             <GlowCard
                                 key={index}
                                 year={award.year}
                                 className="transition-all duration-500 hover:-translate-y-6 mt-10"
                             >
-                                <div className="flex items-center gap-8 ">
-                                    <div className="text-violet-500 text-6xl">
+                                <div className="flex items-center lg:gap-6 xl:gap-8 ">
+                                    <div className="text-violet-500 lg:text-5xl xl:text-6xl">
                                         <MilitaryTechIcon fontSize="inherit" />
                                     </div>
                                     <div className="flex flex-col gap-2">
                                         {award.items.map((item, index) => (
                                             <p
-                                                className="text-sm sm:text-base"
+                                                className="text-sm xl:text-base"
                                                 key={index}
                                             >
                                                 {item[locale]}

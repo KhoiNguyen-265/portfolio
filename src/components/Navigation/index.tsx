@@ -46,7 +46,7 @@ function Navigation() {
                 <a
                     key={link.id}
                     href={`#${link.id}`}
-                    className="link flex items-center gap-1 px-2 xl:px-4 py-3 text-sm"
+                    className="link flex items-center px-4 py-3 text-sm"
                 >
                     <span>{link.icon}</span>
                     <span>{link.label}</span>
