@@ -8,6 +8,9 @@ interface IButtonProps {
     href?: string;
     rounded?: boolean;
     disable?: boolean;
+    download?: any;
+    target?: string;
+    rel?: string;
 }
 
 function Button({

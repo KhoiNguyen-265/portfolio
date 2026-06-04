@@ -73,7 +73,13 @@ function HeroLeft({ className = "" }) {
                         <PersonOutlineOutlinedIcon className="text-inherit" />
                     </span>
                 </Button>
-                <Button size="lg" className="uppercase shrink-0">
+                <Button
+                    size="lg"
+                    className="uppercase shrink-0"
+                    href="CV-AI.pdf"
+                    download="CV-AI.pdf"
+                    target="_blank"
+                >
                     <span className="flex item-center justify-center text-xs sm:text-base gap-1">
                         <span className="flex items-center justify-center">
                             {t("heroSection.cv")}{" "}

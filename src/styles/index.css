@@ -81,7 +81,7 @@ textarea {
 
 .link--active {
     color: var(--color-text1);
-    text-shadow: 0.5px 0 0 var(--color-tex1);
+    text-shadow: 0.5px 0 0 var(--color-text1);
 }
 
 .link--active::after {

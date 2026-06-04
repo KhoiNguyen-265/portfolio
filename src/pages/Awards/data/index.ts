@@ -33,4 +33,21 @@ export const AWARDS_DATA = [
             },
         ],
     },
+    {
+        year: "2025 - 2026",
+        items: [
+            {
+                vi: "Giải Ba vòng chung kết cuộc thi 'Ý tưởng khởi nghiệp HUMG 2025' với đề tài: 'SmartLearn - ứng dụng gia sư thông minh cá nhân hóa học tập'",
+                en: "Third Prize in the Final Round of the 'HUMG Startup Idea 2025' Competition with the project: 'SmartLearn - an intelligent personalized learning tutor application'",
+            },
+            {
+                vi: "Giải Khuyến khích cuộc thi 'Olympic Toán học Sinh viên - Học sinh toàn quốc' lần thứ 32 (2026)",
+                en: "Consolation Prize in the 32nd National Student Mathematics Olympiad (2026)",
+            },
+            {
+                vi: "Giải Nhì Nghiên cứu khoa học cấp Tiểu ban với đề tài 'Nghiên cứu và xây dựng SmartLearn - Ứng dụng gia sư thông minh cá nhân hóa học tập'",
+                en: "Second Prize in Scientific Research (Subcommittee level) with the project: 'Research and development of SmartLearn - an intelligent personalized learning tutor application'",
+            },
+        ],
+    },
 ];

@@ -9,9 +9,10 @@ import { useTranslation } from "react-i18next";
 interface INavMobile {
     isOpen: boolean;
     onClose: () => void;
+    activeSection?: string;
 }
 
-function NavMobile({ isOpen = false, onClose }: INavMobile) {
+function NavMobile({ isOpen = false, onClose, activeSection = "" }: INavMobile) {
     const { t } = useTranslation();
 
     const navLinks = [
@@ -74,7 +75,9 @@ function NavMobile({ isOpen = false, onClose }: INavMobile) {
                             <a
                                 key={link.id}
                                 href={`#${link.id}`}
-                                className="link flex flex-1 items-center py-4 px-3 gap-2 text-sm"
+                                className={`link flex flex-1 items-center py-4 px-3 gap-2 text-sm ${
+                                    activeSection === link.id ? "link--active" : ""
+                                }`}
                                 onClick={onClose}
                             >
                                 <span>{link.icon}</span>

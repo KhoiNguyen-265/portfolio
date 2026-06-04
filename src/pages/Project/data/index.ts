@@ -1,4 +1,4 @@
-import { project01, project02, project03 } from "../../../assets/images";
+import { project01, project02 } from "../../../assets/images";
 import type { IProject } from "../types";
 
 export const PROJECTS_DATA: IProject[] = [
@@ -6,42 +6,28 @@ export const PROJECTS_DATA: IProject[] = [
         id: 1,
         imgPath: project01,
         title: {
-            en: "Project 01",
-            vi: "Dự án 01",
+            en: "StudyShare",
+            vi: "StudyShare",
         },
         desc: {
-            en: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, nihil amet laboriosam beatae dolores sint molestias numquam molestiae similique quia!",
-            vi: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, suscipit? Illo, aperiam deleniti? Impedit sint quisquam, dignissimos officiis tempora iure!",
+            en: "A platform for sharing documents and learning resources among students. Features document uploads, search, ratings, and study groups.",
+            vi: "Nền tảng chia sẻ tài liệu và tài nguyên học tập giữa các sinh viên. Hỗ trợ tải lên, tìm kiếm, đánh giá tài liệu và kết nối nhóm học tập.",
         },
-        githubLink: "#!",
+        githubLink: "https://github.com/KhoiNguyen-265/studyshare",
         demoLink: "#!",
     },
     {
         id: 2,
         imgPath: project02,
         title: {
-            en: "Project 02",
-            vi: "Dự án 02",
+            en: "SmartLearn",
+            vi: "SmartLearn",
         },
         desc: {
-            en: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, nihil amet laboriosam beatae dolores sint molestias numquam molestiae similique quia!",
-            vi: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, suscipit? Illo, aperiam deleniti? Impedit sint quisquam, dignissimos officiis tempora iure!",
+            en: "AI Math tutor system for grade 6-12 students. Integrates DeepSeek chatbot, Gemini OCR for math problems, adaptive quizzes, and personalized learning progress tracking.",
+            vi: "Hệ thống gia sư Toán AI cho học sinh từ lớp 6-12. Tích hợp chatbot gia sư AI (DeepSeek), quét ảnh bài toán qua Gemini OCR, sinh quiz theo năng lực và theo dõi tiến trình học tập cá nhân hóa.",
         },
-        githubLink: "#!",
-        demoLink: "#!",
-    },
-    {
-        id: 3,
-        imgPath: project03,
-        title: {
-            en: "Project 03",
-            vi: "Dự án 03",
-        },
-        desc: {
-            en: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, nihil amet laboriosam beatae dolores sint molestias numquam molestiae similique quia!",
-            vi: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, suscipit? Illo, aperiam deleniti? Impedit sint quisquam, dignissimos officiis tempora iure!",
-        },
-        githubLink: "#!",
+        githubLink: "https://github.com/KhoiNguyen-265/nckh_2025-2026",
         demoLink: "#!",
     },
 ];

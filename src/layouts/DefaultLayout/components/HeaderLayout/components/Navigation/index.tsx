@@ -5,7 +5,12 @@ import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
 import WorkOutlineOutlinedIcon from "@mui/icons-material/WorkOutlineOutlined";
 import { useTranslation } from "react-i18next";
-function Navigation({ className = "" }) {
+interface INavigation {
+    className?: string;
+    activeSection?: string;
+}
+
+function Navigation({ className = "", activeSection = "" }: INavigation) {
     const { t } = useTranslation();
 
     const navLinks = [
@@ -46,7 +51,9 @@ function Navigation({ className = "" }) {
                 <a
                     key={link.id}
                     href={`#${link.id}`}
-                    className="link flex items-center px-4 py-3 text-sm gap-1"
+                    className={`link flex items-center px-4 py-3 text-sm gap-1 ${
+                        activeSection === link.id ? "link--active" : ""
+                    }`}
                 >
                     <span>{link.icon}</span>
                     <span>{link.label}</span>

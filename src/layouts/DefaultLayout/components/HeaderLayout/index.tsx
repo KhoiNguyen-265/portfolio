@@ -5,6 +5,7 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import LanguageSelect from "../../../../components/LanguageSelect";
 import { useTheme } from "../../../../hooks/useTheme";
+import { useActiveSection } from "../../../../hooks/useActiveSection";
 import Navigation from "./components/Navigation";
 import NavMobile from "./components/NavMobile";
 
@@ -12,6 +13,15 @@ function HeaderLayout() {
     const { t } = useTranslation();
     const { theme, toggleTheme } = useTheme();
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const activeSection = useActiveSection([
+        "home",
+        "about",
+        "skills",
+        "projects",
+        "awards",
+        "contact",
+    ]);
 
     return (
         <header className="bg-bg-tertiary text-text2/80 sticky top-0 z-50">
@@ -23,7 +33,7 @@ function HeaderLayout() {
                     >
                         {t("headerDefaultLayout.brand")}
                     </a>
-                    <Navigation />
+                    <Navigation activeSection={activeSection} />
 
                     <div className="flex items-center gap-2">
                         <div className="text- flex items-center gap-2">
@@ -50,6 +60,7 @@ function HeaderLayout() {
                         <NavMobile
                             isOpen={isMenuOpen}
                             onClose={() => setIsMenuOpen(false)}
+                            activeSection={activeSection}
                         />
                     </div>
                 </div>
